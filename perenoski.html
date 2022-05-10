@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>Woof</title>
+    <link rel="stylesheet" href="./css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<div class="navigation">
+		<div class="logo">
+			<a href="index.html"><img src="./img/logo.jpg" alt="" class="logotype"></a>
+		</div>
+
+		<div class="search-block">
+			<div class="searsh">
+				<input type="text" class="search-form" placeholder="Поиск">
+				<a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+			</div>
+		</div>
+
+		<div class="personal-item">
+			<div class="auth">
+				<div class="login">
+					<a href="#" class="auth-link"><i class="fas fa-user-circle"></i>Войти</a>
+				</div>
+				<div class="car">
+                    <a href="#" class="busket"></a>
+                </div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="menu">
+    	<div class="dropdown">
+            <button class="dropbtn">Собаки</button>
+            <div class="dropdown-content">
+            	<div class="dropdown-content-flex">
+            	    <ul class="dropdown-content0">
+            		    <li class="fafa-none"><p>0</p></li>
+            		    <li class="fafa"><i class="fa-solid fa-dog"></i></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Переноски</a></li>
+            		    <li><a href="#">Корм</a></li>
+            		    <li><a href="#">Витамины</a></li>
+            		    <li><a href="#">Игрушки</a></li>
+            		    <li><a href="#">Миски</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            	        <li><a href="#">Амуниция</a></li>
+            		    <li><a href="#">Лежаки,Подстилки</a></li>
+            		    <li><a href="#">Коврики</a></li>
+            		    <li><a href="#">Груминг</a></li>
+            		    <li><a href="#">Клетки,вольеры</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            	        <li><a href="#">Адресники</a></li>
+            		    <li><a href="#">Аксессуары</a></li>
+            	    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Кошки</button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-flex">
+            	    <ul class="dropdown-content0">
+            		    <li class="fafa-none"><p>0</p></li>
+            		    <li class="fafa"><i class="fa-solid fa-cat"></i></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Переноски</a></li>
+            		    <li><a href="#">Корм</a></li>
+            		    <li><a href="#">Витамины</a></li>
+            		    <li><a href="#">Игрушки</a></li>
+            		    <li><a href="#">Миски</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            	        <li><a href="#">Туалеты,Наполнители</a></li>
+            		    <li><a href="#">Лежаки</a></li>
+            		    <li><a href="#">Коврики</a></li>
+            		    <li><a href="#">Груминг</a></li>
+            		     <li><a href="#">Когтеточки,Домики</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            	        <li><a href="#">Клетки,вольеры</a></li>
+            		    <li><a href="#">Ошейники,шлейки</a></li>
+            		    <li><a href="#">Аксессуары</a></li>
+            	    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Грызуны</button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-flex">
+            	    <ul class="dropdown-content0">
+            		    <li class="fafa-none"><p>0</p></li>
+            		    <li class="fafa"><img src="img/rat.png"></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Корм</a></li>
+            		    <li><a href="#">Переноски</a></li>
+            		    <li><a href="#">Наполнители</a></li>
+            		    <li><a href="#">Витамины</a></li>
+            		    <li><a href="#">Миски,Кормушки</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Игрушки,аксессуары</a></li>
+            		    <li><a href="#">Гнезда и Домики</a></li>
+            		    <li><a href="#">Минеральные камни</a></li>
+            		    <li><a href="#">Туалеты</a></li>
+            		   
+            	    </ul>
+            	    
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Птицы</button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-flex">
+            	    <ul class="dropdown-content0">
+            		    <li class="fafa-none"><p>0</p></li>
+            		    <li class="fafa"><i class="fa-solid fa-dove"></i></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Кормушки,поилки</a></li>
+            		    <li><a href="#">Корм</a></li>
+            		    <li><a href="#">Витамины</a></li>
+            		    <li><a href="#">Аксесуары</a></li>
+            		    <li><a href="#">Клетки</a></li>
+            		    
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Минеральный камень, Песок</a></li>
+            		    <li><a href="#">Гнезда и домики</a></li>
+ 
+            	    </ul>
+            	    
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Рыбы</button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-flex">
+            	    <ul class="dropdown-content0">
+            		    <li class="fafa-none"><p>0</p></li>
+            		    <li class="fafa"><i class="fa-solid fa-fish"></i></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Корм</a></li>
+            		    <li><a href="#">Аквариумы</a></li>
+            		    <li><a href="#">Грунты</a></li>
+            		    <li><a href="#">Декорации</a></li>
+            		    <li><a href="#">Кормушки</a></li>
+            	    </ul>
+            	    <ul class="dropdown-content0">
+            		    <li><a href="#">Сачки</a></li>
+            		    <li><a href="#">Аксессуары</a></li>
+            		  
+            	    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/product.js"></script>
+<script src="js/modal.js"></script>
+
+
+<button onclick="topFunction()" id="myBtnTop" class="myBtnTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtnTop").style.display = "block";
+    } else {
+        document.getElementById("myBtnTop").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+<!-- Perenoski Dogs 1 -->
+<div id="perenoski-dogs-1" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-1.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Atlas 30</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">22540</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="22540" data-sb-curent-size="Коричневая" data-sb-curent-id-or-vendor-code="11101">Коричневая</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11101</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11101"
+                    data-sb-product-name="Переноска Atlas 30"
+                    data-sb-product-price="22540"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-1.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска Atlas.</p>
+                        
+                        <p>В комплекте матрасик и навесная миска.</p>
+                        <p>Переноска изготавливается из высококачественного безопасного пластика и комплектуется металлической решетчатой дверцей с надежной системой фиксации. Верхняя и нижняя половины соединяются при помощи самозащелкивающихся запоров с надежной блокировкой.</p>
+                        <p>Переноска хорошо вентилируется благодаря многочисленным отверстиям и плетеной дверце. Соответствует стандартам Международной ассоциации воздушного транспорта (IATA), т.е. подходит для перевозки животных в самолете.</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Италия</li>
+                                <li class="panel__right__li">60 см</li>
+                                <li class="panel__right__li">40 см</li>
+                                <li class="panel__right__li">38 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 2 -->
+<div id="perenoski-dogs-2" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-2.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Trixie "Capri"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">10520</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="10520" data-sb-curent-size="Зеленый" data-sb-curent-id-or-vendor-code="11201">Зеленый</div>
+                    <div class="product__size-element" data-sb-curent-price="10520" data-sb-curent-size="красный" data-sb-curent-id-or-vendor-code="11202">красный</div>
+                    <div class="product__size-element" data-sb-curent-price="10520" data-sb-curent-size="Синий" data-sb-curent-id-or-vendor-code="11203">Синий</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11201</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11201"
+                    data-sb-product-name="Переноска Trixie Capri"
+                    data-sb-product-price="10520"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-2.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска Trixie "Capri".</p>
+                        
+                        <p>Для переноски кошек и маленьких собак.</p>
+                        <p>вентиляционные щели обеспечивают оптимальную циркуляцию воздуха</p>
+                        <p>пластиковые карманы на крыше для мелочей</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">48 см</li>
+                                <li class="panel__right__li">31 см</li>
+                                <li class="panel__right__li">32 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 3 -->
+<div id="perenoski-dogs-3" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-3.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Trixie "Capri"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">19795</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="19795" data-sb-curent-size="Размер: 55*36*35 см - Skudo-2" data-sb-curent-id-or-vendor-code="11301">Skudo-2</div>
+                    <div class="product__size-element" data-sb-curent-price="23910" data-sb-curent-size="Размер: 60*40*39 см - Skudo-3" data-sb-curent-id-or-vendor-code="11302">Skudo-3</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11301</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11301"
+                    data-sb-product-name="Переноска Trixie Capri"
+                    data-sb-product-price="19795"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-3.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска пластиковая Skudo.</p>
+                        
+                        <p>Пластиковый бокс для транспортировки животных в самолете, а также любом другом транспорте. Стандарт IATA (международный стандарт для авиаперевозок) предусматривает наличие специального замка-защелки для дверки, который препятствует произвольному открыванию двери во время транспортировки животного.</p>
+                        <p>Металлическая дверь, надежные боковые защелки.</p>
+                        <p>Для транспортировки имеется верхняя ручка,  также есть крепления для плечевого ремня.</p>
+                        <p>Размер: 55*36*35 см - Skudo-2</p>
+                        <p>Размер: 60*40*39 см - Skudo-3</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">55, 60 см</li>
+                                <li class="panel__right__li">36, 40 см</li>
+                                <li class="panel__right__li">35,39 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 4 -->
+<div id="perenoski-dogs-4" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-4.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Trixie "Midi-Capri"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">12855</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="12855" data-sb-curent-size="Цвет: синий" data-sb-curent-id-or-vendor-code="11401">синий</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11401</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="100004"
+                    data-sb-product-name="Переноска Trixie Midi-Capri"
+                    data-sb-product-price="19795"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-4.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска Trixie "Midi-Capri".</p>
+                        
+                        <p>Для переноски кошек и маленьких собак весом до 5 кг.</p>
+                        <p>вентиляционные щели обеспечивают оптимальную циркуляцию воздуха</p>
+                        <p>с ручкой для переноски и плечевым ремнем</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">44 см</li>
+                                <li class="panel__right__li">33 см</li>
+                                <li class="panel__right__li">32 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 5 -->
+<div id="perenoski-dogs-5" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-5.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Trixie "Mini-Capri"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">9290</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="9290" data-sb-curent-size="Цвет: серый/голубой" data-sb-curent-id-or-vendor-code="11501">серый/голубой</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11501</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11501"
+                    data-sb-product-name="Переноска Trixie Mini-Capri"
+                    data-sb-product-price="9290"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-5.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>
+                        Переноска Trixie "Mini-Capri".
+                        </p>    
+                        <p>
+                        Для переноски кошек и маленьких собак весом до 5 кг. Переноска идеальна для поездок к ветеринару и в коротких поездках.                        </p>
+                        <p>
+                         вентиляционные щели обеспечивают оптимальную циркуляцию воздуха
+                        </p>
+                        <p>
+                        с ручкой для переноски и плечевым ремнем
+                        </p>
+                       
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">40 см</li>
+                                <li class="panel__right__li">22 см</li>
+                                <li class="panel__right__li">32 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 6 -->
+<div id="perenoski-dogs-6" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-6.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Atlas</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">11490</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="11490" data-sb-curent-size="Размер: 48*32*29 см - Atlas 10" data-sb-curent-id-or-vendor-code="11601">Atlas 10</div>
+                    <div class="product__size-element" data-sb-curent-price="15535" data-sb-curent-size="Размер: 58*37*32 см - Atlas 20" data-sb-curent-id-or-vendor-code="11602">Atlas 20</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11601</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11601"
+                    data-sb-product-name="Переноска Atlas"
+                    data-sb-product-price="11490"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-6.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска пластиковая Atlas.</p>
+                        
+                        <p>Переноска изготавливается из высококачественного безопасного пластика и комплектуется металлической решетчатой дверцей с надежной системой фиксации. Верхняя и нижняя половины соединяются при помощи самозащелкивающихся запоров с надежной блокировкой.</p>
+                        <p>Переноска хорошо вентилируется благодаря многочисленным отверстиям и плетеной дверце. Соответствует стандартам Международной ассоциации воздушного транспорта (IATA), т.е. подходит для перевозки животных в самолете.</p>
+                        <p>Размер: 48*32*29 см - Atlas 10</p>
+                        <p>Размер: 58*37*32 см - Atlas 20</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Италия</li>
+                                <li class="panel__right__li">48, 58 см</li>
+                                <li class="panel__right__li">32, 37 см</li>
+                                <li class="panel__right__li">29,32 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 7 -->
+<div id="perenoski-dogs-7" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-7.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска Trixie "Capri OpenTop"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">26935</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="26935" data-sb-curent-size="Цвет: серый" data-sb-curent-id-or-vendor-code="11701">Серый</div>
+                    <div class="product__size-element" data-sb-curent-price="26935" data-sb-curent-size="Цвет: синий" data-sb-curent-id-or-vendor-code="11702">Синий</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11701</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11701"
+                    data-sb-product-name="Переноска Trixie Capri OpenTop"
+
+                    data-sb-product-price="26935"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-7.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска Trixie "Capri Open Top". </p>
+                        
+                        <p>Для переноски кошек и маленьких собак весом до 12 кг.</p>
+                        <p>вентиляционные щели обеспечивают оптимальную циркуляцию воздуха</p>
+                        <p>удобная ручка для переноски</p>
+                        <p>Размер: 55*36*35 см - Skudo-2</p>
+                        <p>Размер: 60*40*39 см - Skudo-3</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">61 см</li>
+                                <li class="panel__right__li">38 см</li>
+                                <li class="panel__right__li">40 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 8 -->
+<div id="perenoski-dogs-8" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-8.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Сумка-переноска "Лонги"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">4730</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="4730" data-sb-curent-size="Цвет: Серый" data-sb-curent-id-or-vendor-code="11801">Серый</div>
+                    <div class="product__size-element" data-sb-curent-price="4730" data-sb-curent-size="Цвет: Черный" data-sb-curent-id-or-vendor-code="11802">Черный</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11801</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11801"
+                    data-sb-product-name="Сумка-переноска Лонги"
+                    data-sb-product-price="4730"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-8.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Сумка-переноска "Лонги".</p>
+                        
+                        <p>Для переноски кошек и маленьких собак.</p>
+                        <p>две боковые ручки и плечевой ремень</p>
+                        <p>сетка для хорошей циркуляции воздуха</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Италия</li>
+                                <li class="panel__right__li">41 см</li>
+                                <li class="panel__right__li">28 см</li>
+                                <li class="panel__right__li">31 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 9 -->
+<div id="perenoski-dogs-9" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-9.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Сумка-переноска Trixie "Bonny"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">16470</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="16470" data-sb-curent-size="Цвет: синий-серый" data-sb-curent-id-or-vendor-code="11901">Синий-Серый</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>11901</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="11901"
+                    data-sb-product-name="Сумка-переноска Trixie Bonny"
+                    data-sb-product-price="16470"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-9.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Сумка-переноска Trixie "Bonny".</p>
+                        
+                        <p>Для переноски кошек и маленьких собак.</p>
+                        <p>можно прикрепить к тележке</p>
+                        <p>короткий поводок мешает питомцу выпрыгнуть</p>   
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">40 см</li>
+                                <li class="panel__right__li">20 см</li>
+                                <li class="panel__right__li">29 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+<!-- Perenoski Dogs 10 -->
+<div id="perenoski-dogs-10" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-10.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Переноска СПУТНИК-2 ZooM</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">11460</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="11460" data-sb-curent-size="Цвет: Белый-Черный" data-sb-curent-id-or-vendor-code="111001">Белый-Черный</div>
+                    
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>111001</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="111001"
+                    data-sb-product-name="Переноска СПУТНИК-2 ZooM"
+                    data-sb-product-price="11460"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-10.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска СПУТНИК-2 ZooM.</p>
+                        
+                        <p>Отличный образец изделия предназначенного для транспортировки животных, сочетающего в себе функциональность удобство и яркий дизайн</p>
+                        <p>Переноска оснащена прорезями для автомобильного ремня, чтобы питомец, был в полной безопасности, путешествуя со своим хозяином.</p>
+                        <p>Конструкция усиленная, с 7-ю крепежами, выдерживает до 12 кг и обеспечивает надежность переноски, которая сослужит долгую службу.</p>
+                        <p>Металлическая дверь.</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Россия</li>
+                                <li class="panel__right__li">55, 60 см</li>
+                                <li class="panel__right__li">36, 40 см</li>
+                                <li class="panel__right__li">35,39 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 11 -->
+<div id="perenoski-dogs-11" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-11.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Сумка-переноска "Турне"</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">10640</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="10640" data-sb-curent-size="Цвет: Черный" data-sb-curent-id-or-vendor-code="111101">Черный</div>
+                
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>111101</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="111101"
+                    data-sb-product-name="Сумка-переноска Турне"
+                    data-sb-product-price="10640"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-11.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Сумка-переноска "Турне"</p>
+                        
+                        <p>Три сетчатых окна для максимального обзора и вентиляции, 
+                        вшитая в каркас надежная ручка и два металлических полукольца для крепления плечевого ремня (ремень в комплект не входит), 
+                        вынимающаяся жесткая вставка-дно из качественного ДВП.</p>
+                        <p>Конструкция сумки - полностью раскладывающаяся, с одной длинной молнией и двумя бегунками, благодаря чему очень компактна при хранении и транспортировке, легко и быстро собирается и разбирается. Сумка легко поддается сухой или влажной чистке, возможно применение неагрессивных моющих средств (мыльная вода). </p>
+                       
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Россия</li>
+                                <li class="panel__right__li">45 см</li>
+                                <li class="panel__right__li">26 см</li>
+                                <li class="panel__right__li">26 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- Perenoski Dogs 12 -->
+<div id="perenoski-dogs-12" class="popup">
+    <a href="#myBtnTop" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#myBtnTop" class="popup__close">X</a>
+            <div class="popup__content__left">
+                <div class="poput__photo"><img src="img/товары/Переноски-Собаки-12.jpg"></div>
+                <div class="popup__item__name">
+                    <p>Сумка-переноска Trixie Ryan</p>
+                </div>
+            </div>  
+            <div class="popup__content__right">
+                <div class="product__price"><span class="product__price-number">15920</span>₸</div>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="15920" data-sb-curent-size="Цвет: черный" data-sb-curent-id-or-vendor-code="111201">Черный</div>
+                </div>
+                <div class="article">
+                    <p>Артикул:</p>
+                    <article>111201</article>
+                </div>
+                <div class="product__quantity"></div>
+                <div class="poput__buttons">
+                    <button class="poput__basket__button"
+                    data-sb-id-or-vendor-code="111201"
+                    data-sb-product-name="Сумка-переноска Trixie Ryan"
+                    data-sb-product-price="15920"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/товары/Переноски-Собаки-12.jpg"
+                    >в Корзину</button>
+                </div>
+                
+                <button class="accordion">Описание</button>
+                    <div class="panel">
+                        <p>Переноска пластиковая Skudo.</p>
+                        
+                        <p>Для переноски кошек и маленьких собак.</p>
+                        <p>Сумка имеет большие сетчатые вставки для хорошего воздухообмена, что позволяет использовать сумку для перевозки животных в жаркое время года.</p>
+                        <p>Открывается сумка сверху и с фронтальной стороны и закрывается на застежки-молнии. Сумка-переноска имеет каркас, который позволяет держать форму. Материал - крепкий полиэстер, который очень легко чистится.</p>
+                        <p>Широкие нейлоновые ручки, пришитые по кругу для дополнительной прочности и жесткости. Также для удобства наплечный ремень, который можно при желании снять, поскольку он пристегивается с двух сторон карабинами к стальным кольцам.</p>
+                        <p>Сумка оснащена небольшим кармашком, куда вы можете положить мелочи. А внутри есть короткий поводок с карабином, который пристегивается для дополнительной безопасности к ошейнику.</p>
+                        
+                    </div>
+
+                    <button class="accordion">Характристики</button>
+                    <div class="panel__stat">
+                        <div class="panel__left">
+                            <ul class="panel__left__ul">
+                                <li class="panel__left__li">Страна производства</li>
+                                <li class="panel__left__li">Длина</li>
+                                <li class="panel__left__li">Ширина </li>
+                                <li class="panel__left__li">Высота </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="panel__right">
+                            <ul class="panel__right__ul">
+                                <li class="panel__right__li">Германия</li>
+                                <li class="panel__right__li">26 см</li>
+                                <li class="panel__right__li">27 см</li>
+                                <li class="panel__right__li">47 см </li>
+                            </ul>                  
+                        </div>
+                    </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="card-line">Переноски для собак</button>
+    <button class="tablinks" onclick="openCity(event, 'New')" >Сначала Дорогие</button>
+    <button class="tablinks" onclick="openCity(event, 'advise')">Сначала дешевые</button>
+    <button class="tablinks" onclick="openCity(event, 'hit')" id="defaultOpen">По Популярности</button>
+</div>
+<!-- Tab content -->
+<div id="hit" class="tabcontent">
+    <div class="card">
+    <div class="card-block">
+        <div class="card-block-section">
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-1"><img src="img/товары/Переноски-Собаки-1.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas 30</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>22 540 тг.</h1>
+                </div>               
+            </div> 
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-2"><img src="img/товары/Переноски-Собаки-2.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>10 520 тг.</h1>
+                </div>            
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-3"><img src="img/товары/Переноски-Собаки-3.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie Skudo</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>19 795 тг.</h1>
+                </div>
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-4"><img src="img/товары/Переноски-Собаки-4.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Midi-Capri"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>12 855 тг.</h1>
+                </div>           
+            </div>   
+        </div>
+
+        <div class="card-block-section">
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-5"><img src="img/товары/Переноски-Собаки-5.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Mini-Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>9 290 тг.</h1>
+                </div>               
+            </div>  
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-6"><img src="img/товары/Переноски-Собаки-6.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 490 тг.  </h1>
+                </div>            
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-7"><img src="img/товары/Переноски-Собаки-7.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri OpenTop"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>26 935 тг.  </h1>
+                </div>
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-8"><img src="img/товары/Переноски-Собаки-8.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Лонги"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>4 730 тг.</h1>
+                </div>           
+            </div>  
+        </div>
+
+        <div class="card-block-section">
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-9"><img src="img/товары/Переноски-Собаки-9.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Bonny"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>16 470 тг.</h1>
+                </div>               
+            </div>  
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-10"><img src="img/товары/Переноски-Собаки-10.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска СПУТНИК-2 ZooM.</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 460 тг.  </h1>
+                </div>            
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-11"><img src="img/товары/Переноски-Собаки-11.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Турне"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>10 640 тг.  </h1>
+                </div>
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-12"><img src="img/товары/Переноски-Собаки-12.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Ryan"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>15 920 тг.  </h1>
+                </div>           
+            </div>   
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="advise" class="tabcontent">
+<div class="card">
+    <div class="card-block">
+
+        <div class="card-block-section">
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-8"><img src="img/товары/Переноски-Собаки-8.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Лонги"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>4 730 тг.</h1>
+                </div>           
+            </div>  
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-5"><img src="img/товары/Переноски-Собаки-5.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Mini-Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>9 290 тг.</h1>
+                </div>               
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-2"><img src="img/товары/Переноски-Собаки-2.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>10 520 тг.</h1>
+                </div>            
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-11"><img src="img/товары/Переноски-Собаки-11.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Турне"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>10 640 тг.  </h1>
+                </div>
+            </div>   
+        </div>
+        <div class="card-block-section">
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-10"><img src="img/товары/Переноски-Собаки-10.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска СПУТНИК-2 ZooM.</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 460 тг.  </h1>
+                </div>            
+            </div>  
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-6"><img src="img/товары/Переноски-Собаки-6.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 490 тг.  </h1>
+                </div>            
+            </div>    
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-4"><img src="img/товары/Переноски-Собаки-4.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Midi-Capri"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>12 855 тг.</h1>
+                </div>           
+            </div>      
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-12"><img src="img/товары/Переноски-Собаки-12.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Ryan"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>15 920 тг.  </h1>
+                </div>           
+            </div>   
+        </div>
+        <div class="card-block-section">
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-9"><img src="img/товары/Переноски-Собаки-9.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Bonny"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>16 470 тг.</h1>
+                </div>               
+            </div>  
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-3"><img src="img/товары/Переноски-Собаки-3.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie Skudo</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>19 795 тг.</h1>
+                </div>
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-1"><img src="img/товары/Переноски-Собаки-1.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas 30</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>22 540 тг.</h1>
+                </div>               
+            </div>   
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-7"><img src="img/товары/Переноски-Собаки-7.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri OpenTop"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>26 935 тг.  </h1>
+                </div>
+            </div>   
+        </div>
+    </div>
+    </div>
+</div>
+
+<div id="New" class="tabcontent">
+
+    <div class="card">
+    <div class="card-block">
+        <div class="card-block-section">
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-7"><img src="img/товары/Переноски-Собаки-7.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri OpenTop"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>26 935 тг.  </h1>
+                </div>
+            </div>  
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-1"><img src="img/товары/Переноски-Собаки-1.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas 30</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>22 540 тг.</h1>
+                </div>               
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-3"><img src="img/товары/Переноски-Собаки-3.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie Skudo</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>19 795 тг.</h1>
+                </div>
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-9"><img src="img/товары/Переноски-Собаки-9.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Bonny"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>16 470 тг.</h1>
+                </div>               
+            </div> 
+
+        </div>
+        <div class="card-block-section">
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-12"><img src="img/товары/Переноски-Собаки-12.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска Trixie "Ryan"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>15 920 тг.  </h1>
+                </div>           
+            </div> 
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-4"><img src="img/товары/Переноски-Собаки-4.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Midi-Capri"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>12 855 тг.</h1>
+                </div>           
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-6"><img src="img/товары/Переноски-Собаки-6.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Atlas</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 490 тг.  </h1>
+                </div>            
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-10"><img src="img/товары/Переноски-Собаки-10.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска СПУТНИК-2 ZooM.</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>11 460 тг.  </h1>
+                </div>            
+            </div>  
+
+        </div>
+        <div class="card-block-section">
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-11"><img src="img/товары/Переноски-Собаки-11.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Турне"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>10 640 тг.  </h1>
+                </div>
+            </div> 
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-2"><img src="img/товары/Переноски-Собаки-2.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>10 520 тг.</h1>
+                </div>            
+            </div>  
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-5"><img src="img/товары/Переноски-Собаки-5.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Переноска Trixie "Mini-Capri"</h1>
+                </div>               
+                <div class="card-block-price">
+                    <h1>9 290 тг.</h1>
+                </div>               
+            </div>   
+
+            <div class="card-block-section-card"> 
+                <div class="card-block-photo">
+                    <a href="#perenoski-dogs-8"><img src="img/товары/Переноски-Собаки-8.jpg"></a>
+                </div>                
+                <div class="card-block-name">
+                    <h1>Сумка-переноска "Лонги"</h1>
+                </div>
+                <div class="card-block-price">
+                    <h1>4 730 тг.</h1>
+                </div>           
+            </div>    
+
+        </div>
+    </div>
+</div>
+</div>
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<div class="advise">
+    <p class="advise__title">Средства для транспортировки собак, есть ли необходимость?</p>
+    <ul class="advise__ul">
+        <li>Рано или поздно все владельцы собак сталкиваются с тем, что питомцу требуется передвижение. Для простых прогулок и пешего передвижения подходят обычный поводок и намордник, но как быть, когда с собакой нужно преодолеть большое расстояние и воспользоваться автотранспортом? Тогда на помощь приходят специальные приспособления, называемые переносками для собак.</li>
+        <li>Среди амуниции для собак – переноска один из предметов первой необходимости, ведь сегодня это обязательное требование при перевозке животного в общественном транспорте.</li>
+        <li>Конструкций переносок бесчисленное множество, но в основном используется сумка-переноска для собак, которую обшивают пластиком. Они созданы таким образом, чтобы собаке было комфортно, и она не получала лишнего стресса. И пусть переноски различны по размеру и весу, использование таких боксов в международных компаниях строго регламентировано.</li>
+        <li>В самолетах, поездах и других междугородних транспортных средствах существуют требование к размерам, защелкам, материалам и так далее. Обозначается этот стандарт как IATA и выбирая переноску, это основное на что следует обратить внимание.</li>
+    </ul>
+    <p class="advise__title">Как правильно выбрать и купить переноску для собаки</p>
+    <ul class="advise__ul">
+        <li>Разберемся немного в том, какие рекомендации к моделям переносок можно дать. Следуя простым советам, путешествие вашего любимца будет комфортным и не принесет беспокойств ни ему, ни людям вокруг.</li>
+        <li>Выше было упомянуто о том, что переноски различны по моделям, размерам и соответствию стандартам. Качество самого бокса — это отдельная тема, в первую очередь следует выбирать такой, который бы соответствовал стандарту IATA. И пусть вы не любитель путешествовать и в ближайшем будущем не намечается никаких поездок, если вам вдруг нужно будет куда-то ехать незапланированно, наличие переноски с сертификатом IATA поможет сэкономить время и деньги. Но помните, что такой товар будет немного дороже обычных аналогов.</li>
+    </ul>
+    <p class="advise__title">Как подобрать размер бокса для транспортировки собаки</p>
+    <ul class="advise__ul">
+        <li>Высота коробки должна быть чуть выше высоты собаки в холке, а ширина равна двойной ширине грудной клетки питомца. Длина высчитывается из расчета суммы размера самого животного и длины его лапы.</li>
+        <li>Важно понимать, что основные размеры переносок уже учитывают большинство стандартных размеров собак. У нас в интернет-магазине, вы обязательно найдете подходящую переноску, если не уверенны можете задать вопросы консультантам, они с радостью вам помогут.</li>
+    </ul>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<footer>
+	<div class="footer-logo">
+		<a href="#"><img src="img/logo.jpg"></a>
+	</div>
+	<div class="footer0">
+	    <ul class="footer-items">
+	        <li class="footer-company"><a href="#" class="footer-p">О КОМПАНИИ</a>
+		        <ul class="footer-company0">
+			        <li><a href="#" class="footer-items0">Новости</a></li>
+			        <li><a href="#"class="footer-items0">Команда</a></li>
+		            <li><a href="#"class="footer-items0">Отзывы</a></li>
+			        <li><a href="#"class="footer-items0">Партнеры</a></li>
+		        </ul>
+	        </li>
+	        <li class="footer-info"><a href="#" class="footer-p">ИНФОРМАЦИЯ</a>
+		        <ul class="footer-info0">
+		    	    <li><a href="#"class="footer-items0">Условия оплаты</a></li>
+		    	    <li><a href="#"class="footer-items0">Условия доставки</a></li>
+		            <li><a href="#"class="footer-items0">Условия возврата</a></li>
+		        </ul>
+	        </li>
+	        <li class="footer-social"><a href="#" class="footer-p">CОЦИАЛЬНЫЕ СЕТИ</a>
+		        <ul class="footer-social0">
+		    	    <li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+				    <li><a href="#" class="social-link"><i class="fab fa-pinterest"></i></a></li>
+				    <li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a></li>
+				    <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+		        </ul>
+	        </li>
+	        <li class="footer-contact"><a href="#" class="footer-p">КОНТАКТЫ</a>
+		        <ul class="footer-contact0">
+		    	    <li><a href="#"class="footer-items0">+7 (747) 205-30-00</a></li> 	  
+		    	    <li><a href="#"class="footer-items0">info@zootopia.kz</a></li>
+		            <li><a href="#"class="footer-items0">Алматы, Абылай хана 81</a></li>
+		        </ul>
+	        </li>
+        </ul>
+    </div>
+</footer>
+
+
+
+
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.smart-basket__wrapper').smbasket({
+                productElement: 'popup__body',
+                buttonAddToBasket: 'poput__basket__button',
+                productPrice: 'product__price-number',
+                productSize: 'product__size-element',
+                
+                productQuantityWrapper: 'product__quantity',
+                smartBasketMinArea: 'busket',
+                countryCode: '+7',
+                smartBasketCurrency: '₸',
+                smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+                agreement: {
+                    isRequired: true,
+                    isChecked: true,
+                    isLink: 'https://artstranger.ru/privacy.html',
+                },
+                nameIsRequired: false,
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
