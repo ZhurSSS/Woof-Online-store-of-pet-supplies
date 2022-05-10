@@ -1,0 +1,31 @@
+
+.interesting {
+	background: #fff;
+}
+.interesting__img {
+	padding: 50px;
+    text-align: center;
+}
+.interesting__img img {
+	height: 250px;
+    margin: 0px 10px;
+}
+.interesting__text {
+	color: #444;
+    padding: 0px 175px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.interesting__text ol {
+}
+.interesting__text li {
+	padding: 10px 0px;
+}
+.interesting__text p {
+	padding: 10px 0px;
+}
+.interesting__text h1 {
+	font-size: 25px;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
